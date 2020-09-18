@@ -1,0 +1,15 @@
+current directory: /home/mochi/workspace/rails_tutorial/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200919-13815-1yixpwc.rb extconf.rb
+creating Makefile
+
+current directory: /home/mochi/workspace/rails_tutorial/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/mochi/workspace/rails_tutorial/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/mochi/workspace/rails_tutorial/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20200919-13815-1naj8a2/bootsnap
