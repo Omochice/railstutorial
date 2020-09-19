@@ -96,6 +96,9 @@ GEM
       minitest (>= 3.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
+    io-console (0.5.6)
+    irb (1.2.7)
+      reline (>= 0.1.5)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
     listen (3.2.1)
@@ -173,6 +176,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (1.7.1)
+    reline (0.1.5)
+      io-console (~> 0.5)
     ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
@@ -238,6 +243,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   guard
   guard-minitest
+  irb
   jbuilder (~> 2.7)
   listen (~> 3.2)
   minitest
