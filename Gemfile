@@ -23,6 +23,8 @@ gem "jbuilder", "~> 2.7"
 # gem 'bcrypt', '~> 3.1.7'
 gem "bootstrap-sass"
 gem "bcrypt"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -43,6 +45,7 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "irb"
+  gem "faker"
 end
 
 group :test do
