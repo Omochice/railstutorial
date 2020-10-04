@@ -1,4 +1,3 @@
-source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.7.1"
@@ -25,6 +24,8 @@ gem "bootstrap-sass"
 gem "bcrypt"
 gem "will_paginate"
 gem "bootstrap-will_paginate"
+gem "carrierwave"
+gem "mini_magick"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -59,6 +60,12 @@ group :test do
   gem "minitest-reporters"
   gem "guard"
   gem "guard-minitest"
+  gem "faker"
+end
+
+group :production do
+  gem "pg"
+  gem "fog"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
